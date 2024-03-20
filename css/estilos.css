@@ -1,0 +1,21 @@
+html{font-size: 24px;} /*establece el tamaño del padre*/
+h1{font-size: 16px;} /*establece el tamaño de h1 en unidad relativa*/
+h2{font-size: 1rem;} /*establece el tamaño de h2 en unidad relativa*/
+h3{font-size: 1.75rem;} /*establece el tamaño de h3 en unidad relativa*/
+h4{font-size: 1.5rem;} /*establece el tamaño de h4 en unidad relativa*/
+h5{font-size: 1.25rem;} /*establece el tamaño de h5 en unidad relativa*/
+h6{font-size: 1.05rem;} /*establece el tamaño de h6 en unidad relativa*/
+
+.contenedor{ /*es el nombre de la clase y es el padre*/
+    width: 70%; /*etablece el ancho del padre*/
+    height: 400px; /*etablece lo alto del padre*/
+    background-color: aqua; /*etablece el color de fondo del padre*/
+    margin: 30px auto; /*establece el margen y centrado del padre*/
+}
+
+.hijo{   /*es el nombre de una clase y es el hijo*/
+    width: 50vw; /*etablece el ancho del hijo*/
+    height: 80%; /*etablece lo alto del hijo*/
+    background-color: blueviolet; /*etablece el color de fondo del hijo*/
+    margin: 30px auto;  /*establece el margen y centrado del hijo*/
+}
